@@ -63,6 +63,7 @@
 	lg = !"git lg1"
 	co = checkout
 	ps = push
+	pl = pull --rebase
 
 [apply]
 
