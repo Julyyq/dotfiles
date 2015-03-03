@@ -49,3 +49,7 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+# For rbenv & ruby-build library @Allen
+export RBENV_ROOT="/usr/local/var/rbenv"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
