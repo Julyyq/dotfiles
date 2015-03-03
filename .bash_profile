@@ -53,3 +53,6 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # For rbenv & ruby-build library @Allen
 export RBENV_ROOT="/usr/local/var/rbenv"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# For 64 System compile
+export ARCHFLAGS="-arch x86_64"
