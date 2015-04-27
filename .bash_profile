@@ -56,3 +56,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # For 64 System compile
 export ARCHFLAGS="-arch x86_64"
+
+# Android adb
+export PATH=$PATH:~/Library/Android/sdk/platform-tools
