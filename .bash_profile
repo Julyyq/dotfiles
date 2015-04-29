@@ -59,3 +59,14 @@ export ARCHFLAGS="-arch x86_64"
 
 # Android adb
 export PATH=$PATH:~/Library/Android/sdk/platform-tools
+
+# VSCode
+code () {
+    if [[ $# = 0 ]]
+    then
+        open -a "Visual Studio Code"
+    else
+        [[ $1 = /* ]] && F="$1" || F="$PWD/${1#./}"
+        open -a "Visual Studio Code" --args "$F"
+    fi
+}
