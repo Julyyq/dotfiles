@@ -70,3 +70,6 @@ code () {
         open -a "Visual Studio Code" --args "$F"
     fi
 }
+
+# OSX Packages Uninstaller
+export PATH=$PATH:$HOME/.pkg_uninstaller
