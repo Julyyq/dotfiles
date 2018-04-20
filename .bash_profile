@@ -117,4 +117,4 @@ export PATH=$PATH:/Users/Allen/api-boilerplate/node_modules/.bin
 export NODE_PATH=~/.nvm/versions/node/v7.6.0/lib/node_modules
 
 # shadowsocks 全局代理 use polipo https://jingsam.github.io/2016/05/08/setup-shadowsocks-http-proxy-on-ubuntu-server.html
-export http_proxy="http://127.0.0.1:8123/"
+# export http_proxy="http://127.0.0.1:8123/"
